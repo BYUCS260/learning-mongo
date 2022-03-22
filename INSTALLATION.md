@@ -16,7 +16,7 @@ brew tap mongodb/brew
 Then install Mongo:
 
 ```
-brew install mongodb-community@4.0
+brew install mongodb-community
 ```
 
 To run from the command line in the foreground:
