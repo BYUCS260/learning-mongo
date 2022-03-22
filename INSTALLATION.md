@@ -3,7 +3,7 @@
 You can setup Mongo on both your laptop and your server. There is [installation documentation](https://docs.mongodb.com/manual/installation/) on the Mongo website but the below
 summarizes the steps needed for each OS.
 
-If you are using cloud9, you should have already installed mongo on your server.  If you are using another system, these instructions should be helpful.
+If you are using cloud9, you should have already installed mongo on your server. If you are using another system, these instructions should be helpful.
 
 ## Installing on MacOS
 
@@ -22,7 +22,7 @@ brew install mongodb-community
 To run from the command line in the foreground:
 
 ```
-mongod --config /usr/local/etc/mongod.conf
+mongod --config /usr/homebrew/etc/mongod.conf
 ```
 
 To run as a service:
@@ -40,8 +40,8 @@ for a GUI for the database.
 
 ## Installing on Linux
 
-*Note, MongoDB recommends using their official repositories, but I've never
-had a problem using the Ubuntu repositories.*
+_Note, MongoDB recommends using their official repositories, but I've never
+had a problem using the Ubuntu repositories._
 
 To install MongoDB:
 
