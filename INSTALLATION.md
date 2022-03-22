@@ -28,7 +28,7 @@ mongod --config /usr/local/etc/mongod.conf
 To run as a service:
 
 ```
-brew services start mongodb-community@4.0
+brew services start mongodb-community
 ```
 
 ## Installing on Windows
